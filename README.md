@@ -74,7 +74,7 @@ clang vectorInt.o main.o -lm -o output
 ```
 ## Build with Makefile
 
-You can also compile the project using the provided `Makefile`.
+You can also compile the project using the provided `makefile`.
 
 To build the project, simply run:
 
