@@ -71,3 +71,9 @@ clang vectorInt.o main.o -o output
 
 # If math.h is used (e.g. for pow), link with:
 clang vectorInt.o main.o -lm -o output
+
+# For problems using real arrays:
+
+clang -Wall -c vectorReal.c
+clang -Wall -c main.c
+clang vectorReal.o main.o -lm -o output
